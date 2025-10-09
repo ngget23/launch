@@ -111,3 +111,68 @@
     align-items: center;
     padding: 0 150px;
 }
+
+.hero-2 {
+  padding: 90px 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.sub-title h4 {
+    color: #407BFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.sub-title h1 {
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.sub-des {
+    color: #939393;
+    line-height: 2.4;
+    font-weight: 300;
+}
+.sub-des ul {
+    line-height: 2.3;
+    margin-bottom: 10px;
+}
+
+ .font-awesome {
+    color: #407BFF;
+    padding-right: 20px;
+}
+
+.sub-end {
+    width: 40%;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sub-end i {
+    background-color: rgba(64, 123, 255, 0.07);
+}
+
+.title-card {
+    display: flex;
+    gap: 20px;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+
+.hero-img img {
+    border-radius: 50px;
+}
+
+.title-card small {
+    font-weight: 350;
+    color: #939393;
+}
+
+.title-card p {
+    font-weight: 300;
+}
