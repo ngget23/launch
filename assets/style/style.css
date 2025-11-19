@@ -204,6 +204,9 @@
   gap: 16px;
 }
 
+.features li h1 {
+  font-weight: 200;
+}
 .feature {
   display: flex;
   gap: 12px;
@@ -516,7 +519,59 @@
 }
 
 .advantage-content small:hover {
-  color: #0056b3;
+  color: #00458e;
   border-bottom: #0056b3 2px solid;
-  
+  cursor: pointer;
+}
+
+/* Hero 6 about us section */
+.hero-6 {
+  padding: 80px 150px;
+  display: flex;
+  gap: 50px;
+}
+
+.container-6 {
+  max-width: 1150px auto;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+}
+
+.des-6 h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+.des-6 .p1 {
+  color: #777;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.des-6 .p2 {
+  color: #777;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+
+.des-6 .highlight {
+  background-color: rgba(64, 123, 255, 0.07);;
+
+}
+
+.des-6 ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.des-6 ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+	margin-bottom: 10px;
 }
